@@ -2446,10 +2446,25 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *  15. clients - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+
+
 #clients {
   background-color: #e9eaea;
   padding: 4.8rem 0 4.8rem;
 }
+
+#clients h2 {
+  font-family: "avenir-light", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
+  margin-bottom: 4.2rem;
+  text-align: center;
+}
+
 #clients .client-lists .owl-item {
   opacity: .6;
   -moz-transition: all 0.6s ease-in-out;
