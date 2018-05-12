@@ -1780,7 +1780,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-image: url("../images/about-bg.jpg");
+  background-image: url("../images/about-bg-cropped.jpg");
   background-repeat: no-repeat;
   background-position: left;
   background-color: rgba(51, 59, 80, 1);
