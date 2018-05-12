@@ -71,6 +71,7 @@ body {
   color: #353535;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 /* -------------------------------------------------------------------
