@@ -1,0 +1,3 @@
+Button: 00988c
+Hover button: 00b9aa
+Accent: 005952

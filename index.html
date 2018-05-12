@@ -17,6 +17,7 @@
 
  	<!-- CSS
    ================================================== -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" href="css/base.css">
    <link rel="stylesheet" href="css/vendor.css">
    <link rel="stylesheet" href="css/main.css">
@@ -60,7 +61,6 @@
 				<li><a class="smoothscroll" href="#process" title="">Services</a></li>
 				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
 				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-        <li><a href="formspree-test.html" title="">test</a></li>
 			</ul>
 
 			<p class="sponsor-text">
@@ -265,154 +265,107 @@
    		<div class="row narrow section-intro with-bottom-sep animate-this">
 	   		<div class="col-twelve">
 	   			<h3>Showcase</h3>
-		   		<h1>See a bit of What I've Worked On.</h1>
+		   		<h1>A bit of what I've worked on.</h1>
 
-		   		<p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+		   		<p class="lead">I've done a pretty bad job capturing content for a portfolio over the years, but here's some of what I could wrangle for this site.</p>
 	   		</div>
 	   	</div> <!-- end row section-intro -->
 
    	</div> <!-- end intro-wrap -->
-
+  <div class="portfolio-wrap">
    	<div class="row portfolio-content">
    		<div class="col-twelve">
-   			<div id="folio-wrap" class="bricks-wrapper">
+   			<div class="bricks-wrapper">
 
-   				<div class="brick folio-item">
-	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg" data-sub-html="#01" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/shutterbug.jpg" alt="Articles">
+   				<div class="brick" style="border:4px solid rgba(255, 255, 255, 0); border-left:8px solid rgba(255, 255, 255, 0); border-top:8px solid rgba(255, 255, 255, 0);">
+            <div class="item-wrap animate-this" >
+               <a id="prydeModal-A" data-toggle="modal" data-target="#prydeModal" class="overlay">
+                 <img src="images/portfolio/prydeLogos.jpg" alt="Pryde">
+                  <div class="item-text">
+                    <span class="folio-types">
+                     Founding CEO
+                    </span>
+                    <h3 class="folio-title">PrydeVR - The Easiest Way to Show Your Friends What You're Doing in Virtual Reality.</h3>
+                  </div>
+               </a>
+            </div> <!-- end item-wrap -->
+
+          </div> <!-- end folio-item -->
+
+	        		<div class="brick" style="border:4px solid rgba(255, 255, 255, 0); border-right:8px solid rgba(255, 255, 255, 0); border-top:8px solid rgba(255, 255, 255, 0)">
+                <div class="item-wrap animate-this"  data-src="images/portfolio/latestArticles.jpg">
+                   <a href="https://medium.com/@hwkeyser" class="overlay">
+                     <img src="images/portfolio/latestArticles.jpg" alt="Medium">
+                      <div class="item-text">
+                        <span class="folio-types">
+                         Written Content
+                        </span>
+                        <h3 class="folio-title">New Medium Articles</h3>
+                      </div>
+                   </a>
+                </div> <!-- end item-wrap -->
+              </div> <!-- end folio-item -->
+
+	        		<div class="brick" style="border:4px solid rgba(255, 255, 255, 0); border-right:8px solid rgba(255, 255, 255, 0);">
+	               <div class="item-wrap animate-this">
+                   <a id="featuredModal-A" data-toggle="modal" data-target="#featuredModal" class="overlay">
+                     <img src="images/portfolio/YouTubeFeatured.jpg" alt="KnightLab">
 	                     <div class="item-text">
-	                     	<span class="folio-types">
-		     					      Web Development
-		     					   </span>
-		     					   <h3 class="folio-title">Shutterbug</h3>
+ 					              <span class="folio-types">
+		     					      Video Content
+     					          </span>
+		     					   <h3 class="folio-title">Featured Videos</h3>
 		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-link"></i>
-	                  </a>
 	               </div> <!-- end item-wrap -->
-
-						<div id="01" class='hide'>
-							<h4>Shutterbug</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
-						</div>
 	        		</div> <!-- end folio-item -->
 
-	        		<div class="brick folio-item">
-	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-yellowwall.jpg" data-sub-html="#02">
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/yellowwall.jpg" alt="Shutterbug">
+              <div class="brick" style="border:4px solid rgba(255, 255, 255, 0); border-left:8px solid rgba(255, 255, 255, 0);">
+    	               <div class="item-wrap animate-this" >
+    	                  <a id="knightLabModal-A" data-toggle="modal" data-target="#knightLabModal" class="overlay">
+    	                  	<img src="images/portfolio/knightlab.jpg" alt="KnightLab">
+    	                     <div class="item-text">
+       					             <span class="folio-types">
+      		     					      Research
+         					           </span>
+         					           <h3 class="folio-title">3D Modeling People Using Smartphone Cameras</h3>
+     					             </div>
+    	                  </a>
+    	               </div> <!-- end item-wrap -->
+
+          		     </div> <!-- end folio-item -->
+
+					<div class="brick" style="border:4px solid rgba(255, 255, 255, 0); border-right:8px solid rgba(255, 255, 255, 0);">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/articles.jpg"  data-sub-html="#05" >
+	                  <a href="https://hwkeyser.wordpress.com" class="overlay">
+	                  	<img src="images/portfolio/articles.jpg" alt="Wordpress">
 	                     <div class="item-text">
-	                     	<span class="folio-types">
-		     					      Marketing
-		     					   </span>
-		     					   <h3 class="folio-title">Yellow Wall</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-link"></i>
+   					             <span class="folio-types">
+  		     					      Written Content
+     					           </span>
+     					           <h3 class="folio-title">Older Articles</h3>
+ 					             </div>
 	                  </a>
 	               </div> <!-- end item-wrap -->
+      		     </div> <!-- end folio-item -->
 
-	               <div id="02" class='hide'>
-							<h4>Yellow Wall</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-	        		<div class="brick folio-item">
-	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-architecture.jpg" data-sub-html="#03" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/architecture.jpg" alt="Explore">
-	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      Web Design
-		     					   </span>
-		     					   <h3 class="folio-title">Architecture</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-link"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="03" class='hide'>
-							<h4>Architecture</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-					<div class="brick folio-item">
-	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-minimalismo.jpg"  data-sub-html="#04" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/minimalismo.jpg" alt="Minimalismo">
-	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      Web Design
-		     					   </span>
-		     					   <h3 class="folio-title">Minimalismo</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-link"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="04" class='hide'>
-							<h4>Minimalismo</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-					<div class="brick folio-item">
-	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-skaterboy.jpg"  data-sub-html="#05" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/articles.jpg" alt="Bicycle">
-	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      Content
-		     					   </span>
-		     					   <h3 class="folio-title">Other Articles</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://hwkeyser.wordpress.com" class='details-link' title="articles-portfolio">
-	                  	<i class="icon-link"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="05" class='hide'>
-							<h4>Skaterboy</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="https://www.behance.net/">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-					<div class="brick folio-item">
+					<div class="brick" style="border:4px solid rgba(255, 255, 255, 0); border-left:8px solid rgba(255, 255, 255, 0);">
 	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-salad.jpg"  data-sub-html="#06">
 	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/salad.jpg" alt="Salad">
+	                  	<img src="images/portfolio/potpourri.jpg" alt="Salad">
 	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      Branding
-		     					   </span>
-		     					   <h3 class="folio-title">Salad</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-link"></i>
+    		     					   <span class="folio-types">
+    		     					      Miscellaneous
+    		     					   </span>
+    		     					   <h3 class="folio-title">Data Analysis, Cartography, Old Products, Multimedia Theater Productions, Conflict Reporter Training, Sword Fighting... there's a lot that goes in the Miscellaneous Drawer.</h3>
+    		     					 </div>
 	                  </a>
 	               </div> <!-- end item-wrap -->
-
-	               <div id="06" class='hide'>
-							<h4>Salad</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
-						</div>
 	        		</div> <!-- end folio-item -->
 
    			</div> <!-- end folio-wrap -->
    		</div> <!-- end twelve -->
    	</div> <!-- end portfolio-content -->
-
+  </div>
    </section>  <!-- end portfolio -->
 
 
@@ -689,12 +642,114 @@
     	<div id="loader"></div>
    </div>
 
+
+<!--MODALS-->
+
+   <!--knightLabModal-->
+   <div id="knightLabModal" class="modal fade bd-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+     <div class="modal-dialog modal-lg modal-dialog-centered" style="text-align:center;">
+       <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title">Knight Lab Photogrammetry Research</h5>
+         </div>
+         <div class="modal-content container-fluid">
+           <div class="row">
+              <div class="col-md-6"><label>Cosplay Models Video</label><iframe id="cosplayVidFrame" width="100%" height="auto" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><hr></div>
+              <div class="col-md-6"><label>Photogrammetry Tutorial</label><iframe id="photogramFrame" width="100%" height="auto" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><hr></div>
+           </div>
+           <div class="row">
+              <div class="col-md-6"><a href="https://studio.knightlab.com/projects/photojournalism3D/"><label>Insight Articles & Interactives</label></a><a href="https://studio.knightlab.com/projects/photojournalism3D/"><img width="100%" height="auto" src="images/portfolio/knightlab-short.jpg"></a><hr></div>
+              <div class="col-md-6"><a href="https://skfb.ly/6yRut"><label>Collection of Models</label></a><iframe id="sketchFrame" width="100%" height="266px" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe><hr></div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!--prydeModal-->
+   <div id="prydeModal" class="modal fade bd-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+     <div class="modal-dialog modal-lg modal-dialog-centered" style="text-align:center;">
+       <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title">PrydeVR - The first startup of the Medill MSJ Media Innovation & Entrepreneurship specialization</h5>
+         </div>
+         <div class="modal-content container-fluid">
+           <div class="row">
+              <div class="col-md-6"><a href="https://prydevr.com"><label>PrydeVR.com</label></a><a href="https://prydevr.com"><img width="100%" height="auto" src="images/portfolio/prydeSiteImage.png"></a><hr></div>
+              <div class="col-md-6"><label>Pryde Video Playlist</label><iframe id="prydePlaylist" width="100%" height="auto" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><hr></div>
+           </div>
+           <div class="row">
+              <div class="col-md-6"><label>Farewell article</label></a><a href="https://medium.com/medill-media-innovation-entrepreneurship/closing-prydevr-b322fe8bcb7f"><img width="100%" height="auto" src="images/portfolio/waving-henry.gif"></a><hr></div>
+              <div class="col-md-6"><a id="prydeSlideshow" href="#"><label>Pryde slideshow</label></a><a id="prydeSlideshow" href="#"><img src="images/portfolio/prydeHandshake.jpg"></a><hr><a id="prydeSlideshow" href="#"><img src="images/portfolio/prydeTeam.jpg"></a><hr></div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!--featuredModal-->
+   <div id="featuredModal" class="modal fade bd-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+     <div class="modal-dialog modal-lg modal-dialog-centered" style="text-align:center;">
+       <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title">Featured videos of hwkeyser content from the past 2 years.</h5>
+         </div>
+         <div class="modal-content container-fluid">
+           <div class="row">
+              <div class="col-md-12"><label>Hwkeyser Featured YouTube Video</label><iframe id="featuredFrame" width="100%" height="400px" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><hr></div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
    <!-- Java Script
    ================================================== -->
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+   <script>
+     $('#knightLabModal-A').click(function () {
+         var cosplayVid = 'https://www.youtube.com/embed/jUIqtRzGdhc?rel=0&amp;showinfo=0';
+         var photogramTutorial = 'https://www.youtube.com/embed/-Qq45AjLTRA?rel=0&amp;showinfo=0';
+         var sketch = 'https://sketchfab.com/playlists/embed?collection=9446f7fd2dcd49a887d6b0243037efb6';
+         $('#knightLabModal').modal('show');
+         $('#knightLabModal #cosplayVidFrame').attr('src', cosplayVid);
+         $('#knightLabModal #photogramFrame').attr('src', photogramTutorial);
+         $('#knightLabModal #sketchFrame').attr('src', sketch);
+     });
+
+     $('#knightLabModal').on('hidden.bs.modal', function () {
+         $('#knightLabModal #cosplayVidFrame').removeAttr('src');
+         $('#knightLabModal #photogramFrame').removeAttr('src');
+         $('#knightLabModal #sketchFrame').removeAttr('src');
+     });
+
+     $('#prydeModal-A').click(function () {
+         var prydeVidList = 'https://www.youtube.com/embed/videoseries?list=PLfpQ5qRn6rCH9MpJFrvcrQa3c7d1qjOE6';
+         $('#prydeModal').modal('show');
+         $('#prydeModal #prydePlaylist').attr('src', prydeVidList);
+     });
+
+     $('#prydeModal').on('hidden.bs.modal', function () {
+         $('#prydeModal #prydePlaylist').removeAttr('src');
+     });
+
+     $('#featuredModal-A').click(function () {
+         var featuredVidList = 'https://www.youtube.com/embed/videoseries?list=PLfpQ5qRn6rCEy-_xLESLyT0o6hgOOonAd';
+         $('#featuredModal').modal('show');
+         $('#featuredModal #featuredFrame').attr('src', featuredVidList);
+     });
+
+     $('#featuredModal').on('hidden.bs.modal', function () {
+         $('#featuredModal #featuredFrame').removeAttr('src');
+     });
+
+  </script>
 </body>
 
 </html>
