@@ -1552,9 +1552,9 @@ header .header-logo a {
   padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
-  font-family: 'avenir-light-webfont', serif;
+  font-family: 'avenir-light', serif;
   font-size: 2.2rem;
-  color: orange;
+  color: green;
   text-transform: uppercase;
   /*letter-spacing: .3rem;*/
   margin: 0 0 .9rem 0;
