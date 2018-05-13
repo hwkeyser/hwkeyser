@@ -1554,7 +1554,7 @@ header .header-logo a {
 .home-content-tablecell h3 {
   font-family: "avenir-light";
   font-size: 2.2rem;
-  color: red;
+  color: blue;
   text-transform: uppercase;
   /*letter-spacing: .3rem;*/
   margin: 0 0 .9rem 0;
