@@ -2032,12 +2032,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #b7f0f7;
 
 }
+/*
 #portfolio .portfolio-wrap{
   background-image: url("../images/millenium-park2.jpg");
   background-repeat: repeat;
   background-size: contain;
   background-position: left;
-}
+}*/
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
 }
