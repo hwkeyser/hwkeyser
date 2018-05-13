@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "avenir-light" ;
   color: #151515;
   font-style: normal;
-  text-rendering: optimizeLegibility;
+  /*text-rendering: optimizeLegibility;*/
   margin-bottom: 2.1rem;
   font-weight: 300;
 }
@@ -1554,7 +1554,7 @@ header .header-logo a {
 .home-content-tablecell h3 {
   font-family: "avenir-light";
   font-size: 2.2rem;
-  color: white;
+  color: red;
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin: 0 0 .9rem 0;
