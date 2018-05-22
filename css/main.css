@@ -2682,7 +2682,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 3rem;
   width: 100%;
   background: #00988c;
-  color: #000000;
+  color: #fff;
   margin-top: .6rem;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
@@ -2735,6 +2735,29 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .oldie #submit-loader .text-loader {
   display: block;
 }
+
+#contact .header-social-list {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  font-size: 2.1rem;
+}
+#contact .header-social-list li {
+  margin-right: 12px;
+  padding-left: 0;
+  display: inline-block;
+}
+#contact .header-social-list li a {
+  color: rgba(255, 255, 255, 0.15);
+}
+#contact .header-social-list li a:hover,
+#contact .header-social-list li a:focus {
+  color: white;
+}
+#contact .header-social-list li:last-child {
+  margin: 0;
+}
+
 
 /* ---------------------------------------------------------------
  * loader animation - (_layout.scss)

@@ -467,8 +467,11 @@
      			<h3>Contact</h3>
      			<h1>Let me know what you think.</h1>
 
-     			<p class="lead">I love contributing ideas for a new project, and I'll happily meet for tea, coffee, ice cream, Sorkin or the traditional tabled meetings. If you've got something you're excited about, and you think I could help-- don't hesitate to drop me a line. </p>
-     		</div>
+     			<p class="lead">I love contributing ideas for a new project, and I'll happily meet for tea, coffee, ice cream, <a href="https://www.google.com/search?q=sorkin+meeting&rlz=1C1CHBF_enUS768US768&oq=sorkin+meeting&aqs=chrome..69i57.383j0j1&sourceid=chrome&ie=UTF-8">Sorkin</a> or the traditional tabled meetings. If you've got something you're excited about, and you think I could help-- don't hesitate to drop me a line. </p>
+          <div id="booking-button">
+           <button id="bookingModal-A" data-toggle="modal" data-target="#bookingModal" class="button submitform" type="submit" style="width:60%;margin:auto;">Choose a time to talk</button>
+          </div>
+        </div>
      	</div> <!-- end section-intro -->
 
      	<div class="row contact-content">
@@ -502,7 +505,7 @@
   	            </div>
 
                  <div class="form-field">
-                    <button class="submitform" type="submit" value="Send">Submit</button>
+                    <button class="submitform" type="submit" value="Send">Send</button>
 
                     <div id="submit-loader">
                       <div class="text-loader">Sending...</div>
@@ -711,6 +714,27 @@
        </div>
      </div>
    </div>
+
+      <!--bookingModal-->
+      <div id="bookingModal" class="modal fade bd-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg" style="text-align:center;">
+          <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Select a time in green to schedule it.</h5>
+            </div>
+            <div class="modal-body">
+             <iframe src="https://hwkeyser.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframehwkeyser" style="width:100%;height:1000px;border:0px; background-color:#03090C;" frameborder="0" allowtransparency="true">
+             </iframe>
+             <script>
+               window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://hwkeyser.youcanbook.me"){document.getElementById("ycbmiframehwkeyser").style.height = (event.data - 1300) + "px";}}, false);
+             </script>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="col-md-12 btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
   <!-- Java Script
    ================================================== -->
