@@ -3,193 +3,74 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 65532,
+      "count": 11744,
       "max": [
-        29.947738647460938,
-        25.030902862548828,
-        17.597007751464844
+        14.638574600219727,
+        17.043926239013672,
+        40.798179626464844
       ],
       "min": [
-        0,
-        0,
-        0
+        -11.903190612792969,
+        -6.8758010864257812,
+        -0.52022171020507812
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 786384,
+      "byteOffset": 140928,
       "componentType": 5126,
-      "count": 65532,
+      "count": 11744,
       "max": [
-        0.99999010562896729,
-        1,
-        0.99999850988388062
+        0.99951672554016113,
+        0.82696628570556641,
+        0.99865353107452393
       ],
       "min": [
-        -0.99999773502349854,
-        -1,
-        -0.99999392032623291
+        -0.99994295835494995,
+        -0.99996757507324219,
+        -0.99663811922073364
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 65532,
+      "count": 11744,
       "max": [
+        0.99999970197677612,
+        0.97780275344848633,
         1,
-        0.99999964237213135,
-        0.99863582849502563,
         -1
       ],
       "min": [
-        -1,
-        -1,
-        -0.9911653995513916,
+        -0.99995988607406616,
+        -0.99668627977371216,
+        -0.99999886751174927,
         -1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 1048512,
-      "componentType": 5126,
-      "count": 65532,
-      "max": [
-        0.99607843160629272,
-        0.99607843160629272,
-        0.99607843160629272,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        0,
-        1
       ],
       "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 65532,
+      "count": 11744,
       "max": [
-        0.99957400560379028,
-        0.50317400693893433
+        0.99902302026748657,
+        0.96386700868606567
       ],
       "min": [
-        0.00024399999529123306,
-        0.00037200000951997936
+        0.00097699998877942562,
+        0.00097699998877942562
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 281481,
+      "count": 30000,
       "max": [
-        65531
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 1572768,
-      "componentType": 5126,
-      "count": 57551,
-      "max": [
-        29.387058258056641,
-        25.030902862548828,
-        17.489606857299805
-      ],
-      "min": [
-        0.071659088134765625,
-        0.01654815673828125,
-        0.21341514587402344
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 2263380,
-      "componentType": 5126,
-      "count": 57551,
-      "max": [
-        0.99995326995849609,
-        0.99979573488235474,
-        0.99995911121368408
-      ],
-      "min": [
-        -1,
-        -0.99999910593032837,
-        -0.99999392032623291
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 2097024,
-      "componentType": 5126,
-      "count": 57551,
-      "max": [
-        1,
-        0.99999988079071045,
-        0.99996834993362427,
-        1
-      ],
-      "min": [
-        -1,
-        -1,
-        -0.99999648332595825,
-        -1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 3017840,
-      "componentType": 5126,
-      "count": 57551,
-      "max": [
-        0.99607843160629272,
-        0.99607843160629272,
-        0.99607843160629272,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 524256,
-      "componentType": 5126,
-      "count": 57551,
-      "max": [
-        0.99959802627563477,
-        0.50317400693893433
-      ],
-      "min": [
-        0.00024399999529123306,
-        0.00061699998332187533
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 1125924,
-      "componentType": 5125,
-      "count": 168495,
-      "max": [
-        57550
+        11743
       ],
       "min": [
         0
@@ -201,40 +82,40 @@
     "extras": {
       "author": "hwkeyser (https://sketchfab.com/hwkeyser)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/fc6a9f9fb2de4d08b673b8a2b5ca9294",
-      "title": "Nick Bike-cut"
+      "source": "https://sketchfab.com/models/cb72c154957d4d10a669ff9b35776a25",
+      "title": "Henry-selfie-2018"
     },
-    "generator": "Sketchfab-3.18.7",
+    "generator": "Sketchfab-3.28.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 1799904,
+      "byteLength": 120000,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 984664,
-      "byteOffset": 1799904,
+      "byteLength": 93952,
+      "byteOffset": 120000,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 2953992,
-      "byteOffset": 2784568,
+      "byteLength": 281856,
+      "byteOffset": 213952,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 3938656,
-      "byteOffset": 5738560,
+      "byteLength": 187904,
+      "byteOffset": 495808,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -242,7 +123,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 9677216,
+      "byteLength": 683712,
       "uri": "scene.bin"
     }
   ],
@@ -251,7 +132,7 @@
   ],
   "images": [
     {
-      "uri": "textures/NickBike-cut_Material_u1_v1_baseColor.jpeg"
+      "uri": "textures/model_Material_u1_v1_baseColor.jpeg"
     }
   ],
   "materials": [
@@ -265,7 +146,7 @@
       "extensions": {
         "KHR_materials_unlit": {}
       },
-      "name": "NickBike-cut_Material_u1_v1",
+      "name": "model_Material_u1_v1",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -287,29 +168,12 @@
       "primitives": [
         {
           "attributes": {
-            "COLOR_0": 3,
             "NORMAL": 1,
             "POSITION": 0,
             "TANGENT": 2,
-            "TEXCOORD_0": 4
+            "TEXCOORD_0": 3
           },
-          "indices": 5,
-          "material": 0,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "COLOR_0": 9,
-            "NORMAL": 7,
-            "POSITION": 6,
-            "TANGENT": 8,
-            "TEXCOORD_0": 10
-          },
-          "indices": 11,
+          "indices": 4,
           "material": 0,
           "mode": 4
         }
@@ -333,63 +197,16 @@
       "children": [
         2
       ],
-      "matrix": [
-        -0.0053023728542029858,
-        -0.99998593330383301,
-        0,
-        0,
-        -0.00015682450612075627,
-        8.316000048580463e-07,
-        -1,
-        0,
-        0.99998593330383301,
-        -0.0053023728542029858,
-        -0.00015682670345995575,
-        0,
-        -2.3491108417510986,
-        -16.217687606811523,
-        -13.883176803588867,
-        1
-      ],
       "name": "RootNode (model correction matrix)"
     },
     {
       "children": [
         3
       ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        -18.668924331665039,
-        -25.030902862548828,
-        -10.165982246398926,
-        1
-      ],
-      "name": "NickBike-cut.obj.cleaner.materialmerger.gles"
-    },
-    {
-      "children": [
-        4,
-        5
-      ],
-      "name": ""
+      "name": "model.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
-      "name": ""
-    },
-    {
-      "mesh": 1,
       "name": ""
     }
   ],
