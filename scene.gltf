@@ -3,50 +3,50 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 11744,
+      "count": 3836,
       "max": [
-        14.638574600219727,
-        17.043926239013672,
-        40.798179626464844
+        15.369918823242188,
+        14.262931823730469,
+        43.98779296875
       ],
       "min": [
-        -11.903190612792969,
-        -6.8758010864257812,
-        -0.52022171020507812
+        -10.582168579101562,
+        -6.7408294677734375,
+        1.8707962036132812
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 140928,
+      "byteOffset": 46032,
       "componentType": 5126,
-      "count": 11744,
+      "count": 3836,
       "max": [
-        0.99951672554016113,
-        0.82696628570556641,
-        0.99865353107452393
+        0.98179864883422852,
+        0.87047088146209717,
+        0.99972391128540039
       ],
       "min": [
-        -0.99994295835494995,
-        -0.99996757507324219,
-        -0.99663811922073364
+        -0.9996497631072998,
+        -0.99992954730987549,
+        -0.98433160781860352
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 11744,
+      "count": 3836,
       "max": [
-        0.99999970197677612,
-        0.97780275344848633,
-        1,
+        0.99999433755874634,
+        0.9077945351600647,
+        0.99999803304672241,
         -1
       ],
       "min": [
-        -0.99995988607406616,
-        -0.99668627977371216,
-        -0.99999886751174927,
+        -0.99997389316558838,
+        -0.99878025054931641,
+        -0.99998670816421509,
         -1
       ],
       "type": "VEC4"
@@ -54,23 +54,23 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 11744,
+      "count": 3836,
       "max": [
-        0.99902302026748657,
-        0.96386700868606567
+        0.99804598093032837,
+        0.99804699420928955
       ],
       "min": [
-        0.00097699998877942562,
-        0.00097699998877942562
+        0.0019529999699443579,
+        0.0019529999699443579
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 30000,
+      "count": 14934,
       "max": [
-        11743
+        3835
       ],
       "min": [
         0
@@ -82,8 +82,8 @@
     "extras": {
       "author": "hwkeyser (https://sketchfab.com/hwkeyser)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/cb72c154957d4d10a669ff9b35776a25",
-      "title": "Henry-selfie-2018"
+      "source": "https://sketchfab.com/models/34b47b789daa4d7c890a1938386b5072",
+      "title": "Henry-5kPoly"
     },
     "generator": "Sketchfab-3.28.5",
     "version": "2.0"
@@ -91,31 +91,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 120000,
+      "byteLength": 59736,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 93952,
-      "byteOffset": 120000,
+      "byteLength": 30688,
+      "byteOffset": 59736,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 281856,
-      "byteOffset": 213952,
+      "byteLength": 92064,
+      "byteOffset": 90424,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 187904,
-      "byteOffset": 495808,
+      "byteLength": 61376,
+      "byteOffset": 182488,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -123,7 +123,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 683712,
+      "byteLength": 243864,
       "uri": "scene.bin"
     }
   ],
