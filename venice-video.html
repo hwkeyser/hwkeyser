@@ -8,11 +8,11 @@
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded artoolkit='sourceType: webcam;' light="defaultLightsEnabled: false">
      <a-entity light="type: ambient; intensity: 1.1;"></a-entity>
-	   <a-gltf-model position="0.430 0 -2.343" rotation="0 49.840 0" scale="0.007 0.007 0.007" src="https://hwkeyser.com/Venice/scene.gltf" material="shader:flat"></a-gltf-model>
+	   <a-gltf-model position="1.176 0 -9.921" rotation="0 49.840 0" scale="0.007 0.007 0.007" src="https://hwkeyser.com/Venice/scene.gltf" material="shader:flat"></a-gltf-model>
      <a-assets>
       <video  playsinline autoplay loop="true" id="greenscreenvideo" src="https://hwkeyser.com/Venice/greenscreenvideo.mp4"></video>
      </a-assets>
-     <a-entity playsinline autoplay loop="true" material=" shader: chromakey;src: #greenscreenvideo; color: 0.05 0.95 0.10 " geometry="primitive: plane"  scale="2 2 2" rotation = "0 0 -90" ></a-entity>
+     <a-entity playsinline autoplay loop="true" position="0 -0.190 0" material=" shader: chromakey;src: #greenscreenvideo; color: 0.05 0.95 0.10 " geometry="primitive: plane"  scale="2 2 2" rotation = "0 0 -90" ></a-entity>
      <a-marker-camera preset="hiro"></a-marker-camera>
   </a-scene>
 </body>
