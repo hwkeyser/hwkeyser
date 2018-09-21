@@ -10,8 +10,10 @@
      <a-entity light="type: ambient; intensity: 1.1;"></a-entity>
 	   <a-gltf-model position="0.430 0 -2.343" rotation="0 49.840 0" scale="0.002 0.002 0.002" src="https://hwkeyser.com/Venice/scene.gltf" material="shader:flat"></a-gltf-model>
      <a-assets>
-      <video position="0 0.223 0.109" id="greenscreenvideo" src="https://hwkeyser.com/Venice/greenscreenvideo.mp4" loop autoplay muted />
+      <video id="greenscreenvideo" src="https://hwkeyser.com/Venice/greenscreenvideo.mp4" playsinline loop autoplay  />
      </a-assets>
+     <a-video src="#greenscreenvideo" width="16" height="9" position="0 0.223 0.109"></a-video>
+     <a-entity material="shader: chromakey; src: #greenscreenvideo; color: 0.05 0.95 0.10" geometry="primitive: box"></a-entity>
      <a-marker-camera preset="hiro"></a-marker-camera>
   </a-scene>
 </body>
