@@ -15,7 +15,7 @@
 </head>
 <!--  Server Address: https://s3-us-west-1.amazonaws.com/mothernature.emblematicgroup.com/Sundance/Sundance-experiment-demo/ -->
 <body >
-  <a-scene fog = "type:linear;color:#AAB;far:10;near:0" embedded artoolkit='sourceType: webcam;'>
+  <a-scene embedded artoolkit='sourceType: webcam;'>
   	<!-- Assests required for the experiment -->
     <a-assets>
       <!-- The Video file in the place holder goes here -->
@@ -32,11 +32,7 @@
 
     <!-- Camera -->
     <a-marker-camera preset="hiro">
-      <a-cursor id = "cursorElement" cursor="fuse: true" raycaster="far: 20; interval: 1000; objects: .clickable" >
-          <a-animation begin="click" easing="ease-in" attribute="scale" dur="150"
-               fill="forwards" from="0.1 0.1 0.1" to="1 1 1"></a-animation>
-          <a-animation begin="cursor-fusing" easing="ease-in" attribute="scale" dur="1500"
-               fill="backwards" from="1 1 1" to="0.1 0.1 0.1"></a-animation>
+      <a-cursor id = "cursorElement" cursor="fuse: true" raycaster="far: 20; interval: 1000; objects: .clickable" ></a-cursor>
     </a-marker-camera>
 
     <!-- Container for videoplaceholder -->
@@ -49,8 +45,6 @@
     <a-entity  visible = "true" billboard position="-7.74 3.53 -5.23" scale="0.5 0.25 1" rotation = "0 -90 0 " class= "clickable" geometry="primitive:plane" material="color:#e01616" id="button" text__starttext="value:Loading;align:center;color:#000000;side:double;width: 2.75;wrapCount:22">
     </a-entity>
 
- 	  <!-- Environment Model -->
-  	<a-gltf-model id = "env" visible = "true" position="-0.999 -5.521 -5.369" ></a-gltf-model>
 
 
   	<!-- Light Entities -->
