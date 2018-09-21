@@ -1,0 +1,68 @@
+
+<head>
+  <!-- Title of the person goes here! -->
+  <title>Kamal Sinclair</title>
+  <!-- JavaScripts required to run the project -->
+  <script src="scripts/aframe.min.js"></script>
+  <script src="scripts/aframe-chromakey-material.min.js"></script>
+  <script src="scripts/aframe-look-at-component.min.js"></script>
+  <script src="scripts/aframe-look-at-billboard-component.min.js"></script>
+  <script src="scripts/pace.min.js"></script>
+  <script src="scripts/form.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="loader.css" />
+</head>
+<!--  Server Address: https://s3-us-west-1.amazonaws.com/mothernature.emblematicgroup.com/Sundance/Sundance-experiment-demo/ -->
+<body >
+  <a-scene fog = "type:linear;color:#AAB;far:10;near:0" embedded artoolkit='sourceType: webcam;'>
+  	<!-- Assests required for the experiment -->
+    <a-assets>
+      <!-- The Video file in the place holder goes here -->
+      <video id="greenscreenvideo" src="Assets/Videos/KamalSinclair/KamalSinclair.mp4"  playsinline muted ></video>
+
+      <!-- The environment model goes here. Model used here is glTF-->
+      <a-asset-item id="environment" position="0.430 0 -2.343" rotation="0 49.840 0" scale="0.002 0.002 0.002" src="Assets/LowResPhotogrammetry/AlienThrone/scene.gltf">
+
+      <!-- Ambient Sound Asset -->
+      <audio id = "ambientSound" src = "Assets/Sounds/Desert_Howling_Wind.mp3"></audio>
+      <audio id = "wind" src = "Assets/Sounds/Wind.mp3" ></audio>
+
+    </a-assets>
+
+    <!-- Camera -->
+    <a-marker-camera preset="hiro">
+      <a-cursor id = "cursorElement" cursor="fuse: true" raycaster="far: 20; interval: 1000; objects: .clickable" >
+          <a-animation begin="click" easing="ease-in" attribute="scale" dur="150"
+               fill="forwards" from="0.1 0.1 0.1" to="1 1 1"></a-animation>
+          <a-animation begin="cursor-fusing" easing="ease-in" attribute="scale" dur="1500"
+               fill="backwards" from="1 1 1" to="0.1 0.1 0.1"></a-animation>
+    </a-marker-camera>
+
+    <!-- Container for videoplaceholder -->
+    <a-entity   id="placeholder" visible = "false" position="-4.438 3.283 -4.58" billboard="" billboard scale="1 1 1">
+    	<!-- Do Not Touch This Entity -->
+   		<a-entity material=" shader: chromakey;src: #greenscreenvideo; color: 0.05 0.95 0.10 " geometry="primitive: plane"  scale="2.8 1.7 2.408" rotation = "0 0 -90" ></a-entity>
+    </a-entity>
+
+    <!-- Button -->
+    <a-entity  visible = "true" billboard position="-7.74 3.53 -5.23" scale="0.5 0.25 1" rotation = "0 -90 0 " class= "clickable" geometry="primitive:plane" material="color:#e01616" id="button" text__starttext="value:Loading;align:center;color:#000000;side:double;width: 2.75;wrapCount:22">
+    </a-entity>
+
+ 	  <!-- Environment Model -->
+  	<a-gltf-model id = "env" visible = "true" position="-0.999 -5.521 -5.369" ></a-gltf-model>
+
+
+  	<!-- Light Entities -->
+    <a-entity id = "ambientLight" light="intensity:0;castShadow:false;type:ambient" position="0.99 -0.74 -1.32" data-aframe-default-light="" aframe-injected="">
+    </a-entity>
+
+    <a-entity id = "HemisphereLight" light="intensity:0.6;castShadow:false;type:hemisphere" position="0.99 -0.74 -1.32" data-aframe-default-light="" aframe-injected="">
+    </a-entity>
+
+
+    <a-entity id="#windSound" sound="volume:0 ;loop:true;src:#wind; autoplay: true"> </a-entity>
+    <a-entity sound="volume:5;src: #ambientSound;autoplay:true"></a-entity>
+
+  </a-scene>
+</body>
