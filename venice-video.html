@@ -12,8 +12,7 @@
      <a-assets>
       <video id="greenscreenvideo" src="https://hwkeyser.com/Venice/greenscreenvideo.mp4" playsinline loop autoplay  />
      </a-assets>
-     <a-video src="#greenscreenvideo" width="16" height="9" rotation="0 0 -90" position="0.055 0.023 0.180" scale=".05 .05 .05"></a-video>
-
+     <a-entity material=" shader: chromakey;src: #greenscreenvideo; color: 0.05 0.95 0.10 " geometry="primitive: plane"  scale=".05 .05 .05" rotation = "0 0 -90" ></a-entity>
      <a-marker-camera preset="hiro"></a-marker-camera>
   </a-scene>
 </body>
