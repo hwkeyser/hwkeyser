@@ -1,0 +1,23 @@
+<!-- Augmented Reality on the Web in 10 lines of html! https://github.com/jeromeetienne/ar.js -->
+<html>
+<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="js/aframe-chromakey-material.min.js"></script>
+    <script src="js/aframe-ar.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+	<a-scene embedded artoolkit='sourceType: webcam;' light="defaultLightsEnabled: false">
+     <a-entity light="type: ambient; intensity: 1.1;"></a-entity>
+	   <a-gltf-model position="-0.704 -4.551 -7.958" rotation="-15.526 66.640 -25.610" scale="0.007 0.007 0.007" src="https://hwkeyser.com/Venice/scene.gltf" material="shader:flat"></a-gltf-model>
+     <a-gltf-model position="-0.704 -4.551 -7.958" rotation="-15.526 66.640 -25.610" scale="0.01 0.01 0.01" src="https://hwkeyser.com/Venice/Floral-Dress-1/scene.gltf" material="shader:flat"></a-gltf-model>
+     <a-marker-camera type='pattern' url='https://hwkeyser.com/HK.patt'></a-marker-camera>
+  </a-scene>
+</body>
+<script>
+window.addEventListener('click', function () {
+  var v = document.querySelector('#vid');
+  v.play();
+});
+</script>
+</html>
